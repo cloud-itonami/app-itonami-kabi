@@ -1,6 +1,6 @@
 {
-  "@context": "https://etzhayyim.com/ns/kotodama/v1",
-  "@id": "did:web:kabi.etzhayyim.com",
+  "@context": "https://itonami.cloud/ns/kotodama/v1",
+  "@id": "did:web:kabi.itonami.cloud",
   "name": "kabi",
   "nanoid": "k4b100m1",
   "project": "kabi",
@@ -14,7 +14,7 @@
     "avatar": "菌",
     "isBot": true,
     "agentType": "autonomous",
-    "operator": "etzhayyim",
+    "operator": "itonami",
     "capabilities": ["hypha-routing", "anastomosis-gate", "nutrient-flow-query"],
     "protocols": ["xrpc", "mcp"]
   },
@@ -24,7 +24,7 @@
   },
   "triggers": {
     "subscribeRepos": {
-      "collections": ["com.etzhayyim.apps.kobo.agent", "com.etzhayyim.apps.kabi.hypha"]
+      "collections": ["cloud.itonami.apps.kobo.agent", "cloud.itonami.apps.kabi.hypha"]
     }
   }
 }

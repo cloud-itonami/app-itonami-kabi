@@ -1,5 +1,5 @@
 (ns kabi.app
-  "com-etzhayyim-app-kabi appview — reagent + re-frame, view built from
+  "app-itonami-kabi appview — reagent + re-frame, view built from
   jp-go-dds (デジタル庁デザインシステム) hiccup.
 
   Faithful port of the previous SvelteKit scaffold's status page
@@ -40,11 +40,11 @@
 
     (require '[jp-go-dds.page :as page] '[clojure.java.io :as io])
     (spit \"public/index.html\"
-          (page/->page {:title \"etzhayyim-project-kabi\"
+          (page/->page {:title \"itonami-project-kabi\"
                          :lang \"ja\"
-                         :description \"com-etzhayyim-app-kabi — kabi (カビ) mycelium network layer appview (reagent + re-frame + jp-go-dds).\"
+                         :description \"app-itonami-kabi — kabi (カビ) mycelium network layer appview (reagent + re-frame + jp-go-dds).\"
                          :css (slurp (io/resource \"jp_go_dds/dds.css\"))}
-                        [:div {:id \"app\"} \"etzhayyim-project-kabi loading…\"]
+                        [:div {:id \"app\"} \"itonami-project-kabi loading…\"]
                         [:script {:src \"js/app.js\"}]))"
   (:require [reagent.dom :as rdom]
             [re-frame.core :as rf]
@@ -56,12 +56,12 @@
 ;; held (title/project/name/kind/routeCount/routes/vars/xrpc/relativePath).
 
 (def default-db
-  {:app/title "Ai etzhayyim Project Kabi"
-   :app/project "etzhayyim-project-kabi"
-   :app/name "etzhayyim-project-kabi"
+  {:app/title "Ai itonami Project Kabi"
+   :app/project "itonami-project-kabi"
+   :app/name "itonami-project-kabi"
    :app/kind "cloudflare surface"
    :app/route-count 2
-   :app/routes ["k4b100m1.etzhayyim.com/*" "kabi.etzhayyim.com/*"]
+   :app/routes ["k4b100m1.itonami.cloud/*" "kabi.itonami.cloud/*"]
    :app/vars ["AGENTGATEWAY_MCP_ROUTER_URL" "APP_CAPABILITIES" "APP_DESCRIPTION"
               "APP_DISPLAY_NAME" "APP_FRAMEWORK" "APP_NANOID" "APP_PERFORMER_TYPE"
               "APP_UI_TYPE"]
