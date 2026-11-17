@@ -1,4 +1,4 @@
-{:schema "etzhayyim.repository/v1"
- :name "com-etzhayyim-app-kabi"
+{:schema "itonami.repository/v1"
+ :name "app-itonami-kabi"
  :kind :app
  :canonical-metadata :edn}

@@ -1,14 +1,14 @@
-# com-etzhayyim-app-kabi
+# app-itonami-kabi
 
 kabi (カビ) — mycelium network layer. Manages hypha routing, anastomosis
 compatibility gates, and nutrient flow channels between kobo agents
 (`APP_DESCRIPTION` in [`wrangler.jsonc`](wrangler.jsonc)). Deployed as the
-Cloudflare Worker `kotodama-k4b100m1`, routed at `k4b100m1.etzhayyim.com/*`
-and `kabi.etzhayyim.com/*`.
+Cloudflare Worker `kotodama-k4b100m1`, routed at `k4b100m1.itonami.cloud/*`
+and `kabi.itonami.cloud/*`.
 
-This repo was extracted from `etzhayyim/root:60-apps/etzhayyim-project-kabi`
+This repo was extracted from `itonami/root:60-apps/itonami-project-kabi`
 (see [`migration.edn`](migration.edn) for provenance) and carries the
-etzhayyim actor descriptor at [`kotodama.jsonld`](kotodama.jsonld).
+itonami actor descriptor at [`kotodama.jsonld`](kotodama.jsonld).
 
 ## Frontend migrated to ClojureScript (2026-09-07)
 
